@@ -1,0 +1,18 @@
+#My snippets
+#for json format
+
+'.source.json':
+  'Slides JSON':
+    'prefix': 'slide'
+    'body': '{"title":"$1",\n
+              "desc":"$2",\n
+              "image":"images/photo_$3.jpg"\n
+               }$4'
+    
+    '.source.json':
+  'Person JSON':
+    'prefix': 'array'
+    'body': '{"Nom":"$1",\n
+              "Prenom":"$2",\n
+              "image":"images/photo_$3.jpg"\n
+               }$4'
